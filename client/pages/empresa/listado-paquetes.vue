@@ -74,7 +74,7 @@ export default {
       totalItems: 0,
       headers: [
         {
-          text: "N°",
+          text: "id",
           align: "center",
           value: "id_paquete",
         },
