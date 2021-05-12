@@ -25,8 +25,6 @@
           :headers="headers"
           :items="paquetes"
           :search="search"
-          hide-default-footer
-          disable-pagination
           class="elevation-1 m-3"
         >
           <template v-slot:[`item.name_status`]="{ item }">
